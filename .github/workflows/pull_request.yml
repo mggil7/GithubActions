@@ -17,7 +17,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock')}}
 
       - name: Install dependencies 
-        run:  ls-la && yarn install
+        run:  yarn install
 
   #unusedexports:
   #  name: Find Unused exports ( dead code )
