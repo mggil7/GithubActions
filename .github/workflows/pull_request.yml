@@ -35,7 +35,6 @@ jobs:
         
   #    - name: Run to ts-prune
   #      run: yarn ts-prune -error
-
   testing:
     name: Run unit test
     runs-on: ubuntu-latest
